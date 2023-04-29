@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="glassfishh:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>glassfishh</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="glassfishh-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="glassfishh:war exploded" />
+    </root>
+  </artifact>
+</component>
